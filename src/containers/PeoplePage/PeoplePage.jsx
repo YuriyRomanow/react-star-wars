@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import {withErrorApi} from "../../hoc-helper/withErrorApi";
+import {withErrorApi} from "../../hoc-helpers/withErrorApi";
 import { getApiResource } from '../../utils/network';
 import { API_PEOPLE } from '../../constants/api';
 import { getPeopleId, getPeopleImage } from '../../services/getPeopleData';
