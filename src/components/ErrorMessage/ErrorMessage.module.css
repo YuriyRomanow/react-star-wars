@@ -7,7 +7,6 @@
     text-align: center;
     text-shadow: 0 0 2px var(--color-white);
     color: var(--color-yellow);
-
     -webkit-text-stroke-color: var(--color-yellow);
     -webkit-text-stroke-width: .5px;
     -webkit-text-fill-color: transparent;
