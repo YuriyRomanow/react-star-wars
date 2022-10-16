@@ -1,4 +1,4 @@
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import routesConfig from '@routes/routesConfig';
 import Header from '@components/Header';
 
@@ -11,7 +11,7 @@ const App = () => {
 				<div className={styles.wrapper}>
 					<Header />
 
-
+					<Switch>
 						{routesConfig.map((route, index) => (
 							<Route
 								key={index}
@@ -20,6 +20,7 @@ const App = () => {
 								component={route.component}
 							/>
 						))}
+					</Switch>
 				</div>
 			</BrowserRouter>
 		</>
