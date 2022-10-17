@@ -29,7 +29,8 @@ const Header = () => {
             <ul className={styles.list__container}>
                 <li><NavLink to="/" exact>Home</NavLink></li>
                 <li><NavLink to="/people/?page=1">People</NavLink></li>
-                <li><NavLink to="/not-found" exact>Not Found</NavLink></li> 
+                <li><NavLink to="/not-found" exact>Not Found</NavLink></li>
+                <li><NavLink to="/search" exact>Search</NavLink></li>
             </ul>
 
             <Favorite />
